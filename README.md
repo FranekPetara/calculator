@@ -4,7 +4,7 @@ requirements:
 1. docker
 2. docker-compose
    
-#how to use:
+how to use:
 
 1. In main folder run command:
 docker-compose build
