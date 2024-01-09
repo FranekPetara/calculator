@@ -1,0 +1,29 @@
+Calculator Challenge
+Overview
+Țhis challenge involves creating a v.eb-based calculator application that performs basic arithmetic operations. The focus is cn a robust design that separetes business logic from presentation, and is extenCable for futurel
+enhancements.
+Functional Requirements
+1. Core Operations The calculator must supprt addition subtraction division. and multiplication
+2. Client-side Input Format It takes an operatcr and two operands as inputs.
+ex: input + input = resoult count
+
+3. REST API Integration: Al operations and their results should te accessible via a RESI API.
+4. Server-Side Logic: The business including calculations and result processing, must be implernented on the server side.
+5. Client.Side Presentation. The clent-side application should handle onty the presentation aspects and interact with the server using AJAX,RESȚ API.
+6. Multi-Application Support: The REST API should be designed to accommcdate multiple Client applicatons without requirinq changes to the API contract.
+Design and Implementation Standards
+Principles The avwlicaticn should adhere to Object-Oriented Programming and Design priryiples
+1. OOP/OOD Principles The avivlication should adhere to Object-Oriented Programming and Design principles
+2. Extensibility. Design the application to be open for extensions but closed for modificâtions (Open/Closed Princip:e). Țhis means the core code shouldn't need changes for future ektensions.
+3. Future Extensions (For Design Considcration Only):
+o Additional Operations (e.g exponentiation - x power y).
+o Complex Expressions (e.g., a b — c/d + a: * d).
+o Varied Result Formats:
+• Snple Numenc Result eg. {result:5} ).
+• Numeric Result with Color Coding (eg„ {result:5, color:"red"} ). Color determination is based on the result numbers parity (even: green. odd: red).
+o The design should account for these potential extensions without implementing thern at this stage.
+Bonus Challenge Implement an algorithm that organizes the operators and operands in specific order.
+Implementation Notes
+• Ensure that the API and server-side logic are robust and efficient.
+• The client-side should be user-friendly and Interact seamlessly With the server.
+This challenge is an opportunity to demonstrate your skills in software design, RESTful API development, and client-server architecture.

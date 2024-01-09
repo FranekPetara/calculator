@@ -152,6 +152,30 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Node.js
+node_modules/
+
+# Vue.js
+/dist/
+/*.env*
+
+# FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/.mypy_cache/
+/.pytest_cache/
+/.vscode/
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
