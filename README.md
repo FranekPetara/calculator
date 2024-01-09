@@ -1,4 +1,4 @@
-## calculator
+# calculator
 #requirements:
 1. docker
 2. docker-compose
