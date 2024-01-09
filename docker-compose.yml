@@ -1,7 +1,6 @@
 version: '3'
 
 services:
-  # Backend FastAPI
   backend:
     build:
       context: ./backend
@@ -12,16 +11,14 @@ services:
       - ./backend/app:/code/app
 
 
-  # Frontend Vue.js
+
   frontend:
-    build: 
+    build:
       context: ./frontend
-    container_name: vue-frontend
     volumes:
       - ./frontend:/app
-      # - '/app/node_modules' # <---- this enables a much faster start/reload
-    working_dir: /app
+      - '/app/node_modules'
     ports:
-      - "8080:8080"
-    environment: 
-      - CHOKIDAR_USEPOLLING=true # <---- this enables the hot reloading // i try on windows is not working
+      - '8080:8080'
+
+
