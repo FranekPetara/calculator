@@ -14,4 +14,5 @@ docker-compose up
 http://localhost:8080/
 
 Author's comments
-aplikacja jest oparta o vue.js i fastApi. Niestety hot reload vue nie dziala w dokerze tak jak powinien mimo różnych konfiguracji. Nie napisałem klasycznej architektury natomiast spróbowałem orginalnego podejścia z dynamicznym ładowaniem endpointów. Dodawanie endpointów działa podobnie jak dodawanie plaginów do aplikacji. Wystarczy dodać dwa pliki od strony backendu i zostaje dodana nowa operacja bez ingerencji w kod aplikacji szczegóły w plikach w folderach operacje i schema. Po wykonaniu tego zadania widzę parę punktów do poprawy ale czas jest skończony...
+
+the application is based on vue.js and fastApi. Unfortunately, hot reload vue does not work in docker as it should, despite various configurations. I didn't write a classic architecture, but I tried an original approach with dynamic loading of endpoints. Adding endpoints works similarly to adding plagins to the application. Just add two files from the backend side and a new operation is added without interfering with the application code - details in files in the operations and schema folders. After completing this task, I see some points for improvement, but time is running out...
